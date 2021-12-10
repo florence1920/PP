@@ -1,7 +1,7 @@
 <template>
     <div class="wrapNav">
-        <h2>HOME</h2>
-        <hr>
+        <p class="font_head">ChooseToday / Index</p>
+        <p class="font_head menu">Menu</p>
     </div>
 </template>
 
@@ -10,6 +10,6 @@
 </script>
 
 <style scoped>
-    .wrapNav {height: 200px;}
-    h2 {margin-bottom: 30px;}
+    .font_head {float: left; font-size: 26px; font-weight: 400;}
+    .menu {float: right;}
 </style>

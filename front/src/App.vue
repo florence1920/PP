@@ -3,15 +3,21 @@
     <div class="top">
       <Nav></Nav>
     </div>
+    <div class="logo">
+      <Logo></Logo>
+    </div>
+     
     <router-view/>
   </div>
 </template>
 
 <script>
 import Nav from '@/components/common/Nav.vue';
+import Logo from '@/components/Logo.vue';
 export default {
   components: {
     Nav,
+    Logo
   },
 }
 </script>
@@ -35,7 +41,7 @@ export default {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font-family: "Niramit","NanumSquare";
     vertical-align: baseline;
   }
   /* HTML5 display-role reset for older browsers */
@@ -61,5 +67,8 @@ export default {
     border-collapse: collapse;
     border-spacing: 0;
   }
-  .top {height: 200px; padding: 20px;}
+  .top {height: 58px; margin: 1.4% 1.25% 1%; border-bottom: 1px solid black;}
+  .logo {margin: 0 1.25% 1.2%;}
+  .mFont {font-size:20px;}
+  .sFont {font-size:14px;}
 </style>

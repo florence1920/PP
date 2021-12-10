@@ -50,16 +50,16 @@
   height: 500px;
   width: 100%;
 
-  .swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-weight: bold;
-    background: #000;
-    color: #fff;
-  }
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-weight: bold;
+      background: #000;
+      color: #fff;
+    }
 
-}
+  }
 
 </style>
