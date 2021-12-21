@@ -3,11 +3,9 @@
     <div class="top">
       <Nav></Nav>
     </div>
-    <div class="logo">
-      <Logo></Logo>
+    <div class="main">
+      <router-view/>
     </div>
-     
-    <router-view/>
   </div>
 </template>
 
@@ -67,8 +65,11 @@ export default {
     border-collapse: collapse;
     border-spacing: 0;
   }
+  a{
+    text-decoration: none;
+  }
   .top {height: 58px; margin: 1.4% 1.25% 1%; border-bottom: 1px solid black;}
-  .logo {margin: 0 1.25% 1.2%;}
+  
   .mFont {font-size:20px;}
   .sFont {font-size:14px;}
 </style>

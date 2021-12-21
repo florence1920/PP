@@ -1,7 +1,7 @@
 <template>
     <div class="wrapNav">
-        <p class="font_head">ChooseToday / Index</p>
-        <p class="font_head menu">Menu</p>
+        <p class="font_head"><router-link to="/">ChooseToday / Index</router-link></p>
+        <p class="font_head menu"><router-link to="/menu">Menu</router-link></p>
     </div>
 </template>
 
