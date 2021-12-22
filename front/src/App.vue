@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-    <div class="top">
-      <Nav></Nav>
-    </div>
     <div class="main">
       <router-view/>
     </div>
@@ -11,11 +8,9 @@
 
 <script>
 import Nav from '@/components/common/Nav.vue';
-import Logo from '@/components/Logo.vue';
 export default {
   components: {
     Nav,
-    Logo
   },
 }
 </script>
@@ -68,7 +63,7 @@ export default {
   a{
     text-decoration: none;
   }
-  .top {height: 58px; margin: 1.4% 1.25% 1%; border-bottom: 1px solid black;}
+  .top {height: 58px; margin: 1.4% 1.25% 0; border-bottom: 1px solid black;}
   
   .mFont {font-size:20px;}
   .sFont {font-size:14px;}
