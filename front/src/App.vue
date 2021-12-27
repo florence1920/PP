@@ -61,10 +61,15 @@ export default {
     border-spacing: 0;
   }
   a{
-    text-decoration: none;
+    text-decoration: none; color: #000;
   }
   .top {height: 58px; margin: 1.4% 1.25% 0; border-bottom: 1px solid black;}
   
   .mFont {font-size:20px;}
   .sFont {font-size:14px;}
+  .m14 {margin: 1.4% 1.25% 0;}
+  .logo {margin: 23px 1.25% 50px;}
+  /* ::selection {
+		background-color: black;
+	} */
 </style>

@@ -45,7 +45,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .logo {margin: 23px 1.25% 50px;}
+  
   .swiper {
   height: 500px;
   width: 100%;

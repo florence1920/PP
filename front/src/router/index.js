@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import MainView from '@/views/MainView.vue'
 import MenuView from '@/views/MenuView.vue'
+import ClosetView from '@/views/ClosetView.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/menu',
     name: 'MenuView',
     component: MenuView
+  },
+  {
+    path: '/closet',
+    name: 'ClosetView',
+    component: ClosetView
   },
 ]
 
