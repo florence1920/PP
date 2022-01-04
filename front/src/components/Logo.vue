@@ -30,5 +30,5 @@ export default {
     img { float: left; height: 150px; margin:0 0 20px; transform: rotate(-10deg);}
     .current {float: left; height: 120px; margin:0 10px 0 ;  display:flex; flex-direction: column-reverse;}
     .city {margin:0 0 10px;}
-    .sTit {float:right; font-size: 210px; margin:90px 0 0;}
+    .sTit {float:right; font-size: 190px; margin:90px 0 0;}
 </style>
